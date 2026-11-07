@@ -1,0 +1,54 @@
+{
+  "name": "MedLine Platform",
+  "repositoryPurpose": "Public engineering showcase of a private production application",
+  "productCategory": "Medical education / e-learning",
+  "audience": "First-year medical students in Tunisia",
+  "interfaceLanguage": "French",
+  "developer": {
+    "name": "Mohamed Yassine Turki",
+    "github": "https://github.com/MohamedYassineTurki",
+    "engineeringScope": "Full-stack application development"
+  },
+  "productUrl": "https://medlineplatform.com",
+  "showcaseUrl": "https://github.com/MohamedYassineTurki/Medline-Platform-Showcase",
+  "reviewDate": "2026-11-07",
+  "roles": ["Student", "Tutor", "Administrator"],
+  "technologies": {
+    "language": ["TypeScript"],
+    "application": ["Next.js App Router", "React", "Server Components", "Server Actions"],
+    "interface": ["Tailwind CSS", "Lucide", "Recharts"],
+    "data": ["PostgreSQL", "Drizzle ORM", "Zod", "SQL migrations"],
+    "integrations": ["Better Auth", "Bunny video delivery", "PDF.js", "Transactional email"],
+    "delivery": ["Docker", "Docker Compose", "Dokploy-oriented configuration"],
+    "testing": ["Node.js test runner", "tsx", "Playwright scenarios"]
+  },
+  "capabilities": [
+    "Structured subject and course catalog",
+    "Ordered video lessons and supporting documents",
+    "Corrected multiple-choice practice and spreadsheet import",
+    "Live-session scheduling and multi-part replay collections",
+    "Tutor conversations, announcements, attachments and notifications",
+    "Wallet payment review and subscription lifecycle",
+    "Learning progress and engagement reporting",
+    "Dedicated content and operational administration"
+  ],
+  "engineeringHighlights": [
+    "Role-specific interfaces backed by shared application services",
+    "Transactional coordination of wallet and subscription state",
+    "Domain-aware engagement aggregation and local-calendar reporting",
+    "Validated assessment import with structured feedback",
+    "Versioned relational schema and focused regression tests",
+    "Container-oriented application packaging and runtime configuration"
+  ],
+  "sourceReviewEvidence": { "focusedTypeScriptTestModules": 22, "sqlMigrationFiles": 42 },
+  "publicCatalogClaims": {
+    "source": "https://medlineplatform.com",
+    "observedOn": "2026-11-07",
+    "educationalVideos": "500+",
+    "correctedQuestions": "300+",
+    "tutors": "10+",
+    "subjects": "10+",
+    "attribution": "Product-published figures; not independent usage or performance measurements"
+  },
+  "publicationBoundary": "Documentation, conceptual diagrams and public-page imagery only; production implementation remains private"
+}
